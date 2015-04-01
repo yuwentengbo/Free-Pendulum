@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\比赛\自由摆\Free-Pendulum1\USER\UCOSII-1.uvproj
+Project File Date:  03/30/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+..\HARDWARE\BUJIN\bujin.h(5): warning:  #1295-D: Deprecated declaration bujin_init - give arg types
+  void bujin_init();
+..\HARDWARE\BUJIN\bujin.h(7): warning:  #1295-D: Deprecated declaration Moter_Stop - give arg types
+  void Moter_Stop();
+..\HARDWARE\BUJIN\bujin.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\ENCODER\encoder.h(9): warning:  #1295-D: Deprecated declaration encoder_get_angle - give arg types
+  float encoder_get_angle();
+..\HARDWARE\ENCODER\encoder.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\1602\1602.h(8): warning:  #1295-D: Deprecated declaration lcd1602_init - give arg types
+  void lcd1602_init();
+..\HARDWARE\1602\1602.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(16): warning:  #1295-D: Deprecated declaration tar1 - give arg types
+  void tar1();
+main.c(17): warning:  #1295-D: Deprecated declaration tar2 - give arg types
+  void tar2();
+main.c(32): warning:  #177-D: variable "flag" was declared but never referenced
+        u8 flag = 0, key_value = 0;
+main.c(33): warning:  #177-D: variable "angle" was declared but never referenced
+        float angle=0;
+main.c: 11 warnings, 0 errors
+linking...
+Program Size: Code=17914 RO-data=594 RW-data=136 ZI-data=4544  
+FromELF: creating hex file...
+"..\OBJ\UCOSII-1.axf" - 0 Error(s), 11 Warning(s).
+</pre>
+</body>
+</html>
+ Error(s), 11 Warning(s).
+Target not created
+variable "flag" was declared but never referenced
+        u8 i,flag;      
+..\HARDWARE\1602\1602.c(76): warning:  #550-D: variable "a" was set but never used
+        u8 a[3];
+..\HARDWARE\1602\1602.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=17722 RO-data=594 RW-data=136 ZI-data=4544  
+FromELF: creating hex file...
+"..\OBJ\UCOSII-1.axf" - 0 Error(s), 14 Warning(s).
